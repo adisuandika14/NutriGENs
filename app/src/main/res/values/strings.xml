@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NutriGENs</string>
+    <string-array name="listgizi">
+        <item>Karbohidrat</item>
+        <item>Protein</item>
+        <item>Kalsium</item>
+        <item>Vitamin A</item>
+        <item>Vitamin B</item>
+        <item>Vitamin C</item>
+    </string-array>
+    <string-array name="detailgizi">
+        <item>Butuh 1kg Karbohidrat tiap harinya</item>
+        <item>Butuh 500g Protein tiap harinya</item>
+        <item>Butuh 500mg Kalsium tiap harinya</item>
+        <item>Butuh 500mg Kalsium tiap harinya</item>
+        <item>Butuh 500mg Kalsium tiap harinya</item>
+        <item>Butuh 500mg Kalsium tiap harinya</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Pilih Gender...</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>

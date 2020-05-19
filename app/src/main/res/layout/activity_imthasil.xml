@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilIMTActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/text_view_hasil_bb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Berat Badan : "
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/text_view_hasil_tb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Tinggi Badan : "
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/text_view_hasil_gender"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Jenis Kelamin : "
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/text_view_hasil_imt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Indeks Massa Tubuh : "
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/text_view_hasil"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Hasil : "
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/text_view_hasil_ket"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Keterangan : "
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
